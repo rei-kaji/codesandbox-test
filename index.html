@@ -8,27 +8,16 @@
   <body>
     <header class="header-area">I'm a Todo Man</header>
     <div class="input-area">
-      <input placeholder="Input your Todo" />
-      <button type="submit">Submit</button>
+      <input id="add-text" placeholder="Input your Todo" />
+      <button id="add-button">Add</button>
     </div>
     <div class="uncomplete-area">
-      <p>Uncomplete</p>
-      <ul>
-        <li>
-          <p>First</p>
-          <button>Complete</button>
-          <button>Delete</button>
-        </li>
-      </ul>
+      <p class="title">Uncomplete</p>
+      <ul id="uncomplete-list"></ul>
     </div>
     <div class="completed-area">
-      <p>Completed.</p>
-      <ul>
-        <li>
-          <p>First</p>
-          <button>Return</button>
-        </li>
-      </ul>
+      <p class="title">Completed</p>
+      <ul id="completed-list"></ul>
     </div>
 
     <script src="src/index.js"></script>
